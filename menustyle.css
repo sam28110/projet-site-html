@@ -1,0 +1,42 @@
+body{
+	font-family: Verana, Calibri,
+	margin: 0px;
+	padding: 0px;
+}
+nav > ul{
+	margin: 0px;
+	padding: 0px;
+}
+navi li{
+	list-style-type: none;
+}
+nav > ul > li{
+	float: left;
+}
+nav input[type=checkbox]{
+	display: none;
+}
+.menu-mobile{
+	display: none;
+}
+nav{
+	width: 100%;
+	background-color: #F57B26;
+}
+nav > ul > li{
+	float: left;
+	position: relative;
+}
+nav > ul::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+}
+nav > ul > li > a{
+	padding: 20px 30px;
+	color: #FFF;
+}
